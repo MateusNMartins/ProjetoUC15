@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header class="caixa">
+
+        <button class="login-on-hover" type="button">
+            <a href="login.html" class="login">Login</a>
+        </button>
+        <p class="titulo">MAX FILMES</p>
+        <ul>
+            <li class="nav">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav">
+                <a href="categoria.html">Categoria</a>
+            </li>
+            <li class="nav">
+                <a href="noticias.html">Notícias</a>
+            </li>
+        </ul>
+    </header>
+
+
+    <main class="container">
+        <div>
+            <form class="forms" method="post" onsubmit="forms()" id="forms">
+                <h1>Faça seu login</h1>
+                <input type="email" placeholder="Digite seu email" name="email" required />
+                <input type="password" placeholder="Digite sua senha" name="password" required />
+                <button type="submit">Entrar</button>
+                <a class="link" href="#">Não possui conta? Cadastre-se</a>
+            </form>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+
+    <footer class="rodape">
+        <p class="copyright"> &copy;Copyright MAX FILMES - 2023</p>
+    </footer>
+</body>
+
+</html>
